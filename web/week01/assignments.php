@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stefano Nicotra's Homepage</title>
+    <title>CS313 Assignments</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,17 @@
 
     <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/header.php';?>
 
-    <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/main.php';?>
+    <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Coming soon!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
     <?php require $_SERVER['DOCUMENT_ROOT']."/week01//includes/footer.php";?>
 

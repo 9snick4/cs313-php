@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link btn btn-secondary rounded-pill" href="#">CS 313 Assignments</a>
+          <a class="nav-link btn btn-secondary rounded-pill" href="../assignments.php">CS 313 Assignments</a>
         </li>
         <!--<li class="nav-item">
           <a class="nav-link" href="#">Log In</a>
