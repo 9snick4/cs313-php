@@ -27,7 +27,7 @@
   </head>
 
   <body>
-    <?php require $_SERVER['DOCUMENT_ROOT'].'includes/navigation.php';?>
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/navigation.php';?>
 
     <header class="masthead text-center text-white">
       <div id="bgb_logo"></div>
@@ -40,12 +40,12 @@
       <div class="bg-circle-3 bg-circle"></div>
       <div class="bg-circle-4 bg-circle"></div>
     </header>
-    <?php require $_SERVER['DOCUMENT_ROOT'].'includes/header.php';?>
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/header.php';?>
 
-    <?php require $_SERVER['DOCUMENT_ROOT'].'includes/main.php';?>
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/main.php';?>
 
 
-    <?php require $_SERVER['DOCUMENT_ROOT']."/includes/footer.php";?>
+    <?php require $_SERVER['DOCUMENT_ROOT']."/week01//includes/footer.php";?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
