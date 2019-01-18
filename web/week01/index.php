@@ -29,17 +29,6 @@
   <body>
     <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/navigation.php';?>
 
-    <!--<header class="masthead text-center text-white">
-      <div id="bgb_logo"></div>
-      <div class="masthead-content">
-        <div class="container">
-        </div>
-      </div>
-      <div class="bg-circle-1 bg-circle"></div>
-      <div class="bg-circle-2 bg-circle"></div>
-      <div class="bg-circle-3 bg-circle"></div>
-      <div class="bg-circle-4 bg-circle"></div>
-    </header>-->
     <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/header.php';?>
 
     <?php require $_SERVER['DOCUMENT_ROOT'].'/week01/includes/main.php';?>
