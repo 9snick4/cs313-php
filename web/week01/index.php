@@ -51,7 +51,7 @@
         </div>
       </div>
     </nav>-->
-    <!-- <?php include $_SERVER['DOCUMENT_ROOT'].'includes/navigation.php';?> -->
+    <?php include $_SERVER['DOCUMENT_ROOT'].'includes/navigation.php';?>
 
     <header class="masthead text-center text-white">
       <div id="bgb_logo"></div>
