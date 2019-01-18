@@ -1,0 +1,28 @@
+.hide{display: none !important}
+
+div,span,h1,h2,h3,h4,h5,h6{color:#333;}
+
+#bgb_logo{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	background-image: url("../img/bgb_450_350.png");
+	object-fit: scale-down;
+	width: 400px;
+	height: 300px;
+	background-size: 100%;
+	transform: translate(-50%, -50%);
+}
+
+/*  Photoswipe show first 6 foto
+	To allow faster loading
+*/
+.my-gallery figure:nth-child(n+7) .gallery-image{display: none}
+
+@media (max-width: 767px){
+
+	.p-5{ padding: 2rem  2rem 0 !important;}
+	.p-5>h2{ font-size: 2.5rem;text-align: center;}
+	.p-5>p{ text-align: center; margin-top: 1rem;}
+
+}
