@@ -1,5 +1,5 @@
 <?php
 
-  phpinfo();
+  header("location: /week01/index.php");
 
 ?>
