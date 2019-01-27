@@ -4,8 +4,8 @@
 		<div id='cart_container'>
 			<?php
 				$chosenN="";
-				if (isset($_COOKIE["cart_cookie_conc"])) {
-					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_conc"]." times </h2>";
+				if (isset($_COOKIE["cart_cookie_con"])) {
+					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_con"]." times </h2>";
 				}
 			?>
 			<div class="row boardgame_detail">
@@ -19,7 +19,7 @@
 					<p><b>Brand :</b>Repos Production</p>
 					<p><b>Price :</b>30€</p>
 					<p><b>Availability :</b>Available <?php echo $chosenN ?></p>
-					<a href= 'templates/addToCart.php?item=conc' class='btn button_add_cart'></a>
+					<a href= 'templates/addToCart.php?item=con' class='btn button_add_cart'></a>
 				</div>				
 			</div>
 			<?php
