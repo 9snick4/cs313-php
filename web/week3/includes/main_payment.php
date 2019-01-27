@@ -52,5 +52,6 @@
 		echo'	document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";';
 		echo"}";
 		echo "</script>";
-		echo "<h2>Payment succeded!</h2>"
+		echo "<h2>Payment succeded!</h2>";
+		
 ?>
