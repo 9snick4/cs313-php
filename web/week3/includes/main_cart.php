@@ -29,7 +29,7 @@
                         <p><b>Brand :</b>Repos Production</p>
                         <p><b>Price :</b>30€</p>
                       </div>
-                      <a href= 'templates/removeFromCart.php?item=con class='btn button_remove_cart'></a>
+                      <a href=templates/removeFromCart.php?item=con class='btn button_remove_cart'></a>
                     </div>
                     <div class='line'></div>
             ";
@@ -65,7 +65,7 @@
                       <p><b>Brand :</b>Oliphante</p>
                       <p><b>Price :</b>15€</p>
                       </div>
-                      <a href= 'templates/removeFromCart.php?item=hb class='btn button_remove_cart'></a>
+                      <a href=templates/removeFromCart.php?item=hb class='btn button_remove_cart'></a>
                     </div>
                     <div class='line'></div>
             ";
@@ -101,7 +101,7 @@
                       <p><b>Brand :</b>Libellud</p>
                       <p><b>Price :</b>35€</p>
                       </div>
-                      <a href= 'templates/removeFromCart.php?item=df class='btn button_remove_cart'></a>
+                      <a href=templates/removeFromCart.php?item=df class='btn button_remove_cart'></a>
                     </div>
                     <div class='line'></div>
             ";
@@ -137,7 +137,7 @@
                       <p><b>Brand :</b>Roxley Games</p>
                       <p><b>Price :</b>35€</p>
                       </div>
-                      <a href= 'templates/removeFromCart.php?item=snt class='btn button_remove_cart'></a>
+                      <a href=templates/removeFromCart.php?item=snt class='btn button_remove_cart'></a>
                     </div>
                     <div class='line'></div>
             ";
