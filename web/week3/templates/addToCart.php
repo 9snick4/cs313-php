@@ -9,7 +9,6 @@
 	
 	$curr_cookie=$_COOKIE["cart_cookie_".$_GET['item']];
 
-	echo $curr_cookie;
 	if(isset($curr_cookie)) {
 		setcookie("cart_cookie_".$_GET['item'], $curr_cookie+1, time() + (86400), "/"); 
 	}
