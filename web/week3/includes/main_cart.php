@@ -7,8 +7,6 @@
       @session_start();
       @session_unset(); 
 
-      // Check connection
-
       $HTML  = "";
       $total=0;
       $HTML2="";
@@ -159,11 +157,6 @@
           ";
           $total +=$cart['Price']*$cookie_quantity_value;
         }
-
-        
-
-
-
 
 
 
