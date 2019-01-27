@@ -17,9 +17,9 @@ $cookie_login_error  = "login-error";
 
 
 <?php
-  <?php
+  
     include "includes/user.php";
-  }
+  
   /*
   if(isset($_COOKIE[$cookie_login_error])) {
         echo "Email or Password incorrect";
