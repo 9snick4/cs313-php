@@ -8,7 +8,7 @@
 					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_conc"]." times </h2>";
 				}
 			?>
-			<div class="row boardgame_details">
+			<div class="row boardgame_detail">
 				<img src='img/concept.jpg' class='cart_image'>
 				<div class='boardgame_details_container'>			
 					<p><b>Name :</b> Concept </p> 
@@ -28,7 +28,7 @@
 					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_hb"]." times </h2>";
 				}
 			?>
-			<div class="row boardgame_details">
+			<div class="row boardgame_detail">
 			<img src='img/hanabi.jpg' class='cart_image'>
 				<div class='boardgame_details_container'>	
 					<p><b>Name :</b> Hanabi </p> 
@@ -48,7 +48,7 @@
 					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_df"]." times </h2>";
 				}
 			?>
-			<div class="row boardgame_details">
+			<div class="row boardgame_detail">
 			<img src='img/diceforge.jpg' class='cart_image'>
 				<div class='boardgame_details_container'>
 					<p><b>Name :</b> Dice Forge </p> 
@@ -68,7 +68,7 @@
 					$chosenN="<h2 class='chosen'> chosen ".$_COOKIE["cart_cookie_snt"]." times </h2>";
 				}
 			?>
-			<div class="row boardgame_details">
+			<div class="row boardgame_detail">
 			<img src='img/santorini.jpg' class='cart_image'>
 				<div class='boardgame_details_container'>							
 					<p><b>Name :</b> Santorini </p> 
