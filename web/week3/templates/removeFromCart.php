@@ -16,6 +16,6 @@
 			setcookie("cart_cookie_".$_GET['item'], 0, time() - 3600, "/") : 				// If 1 item , remove cookie
 			setcookie("cart_cookie_".$_GET['item'], $curr_cookie-1, time() + 84600, "/");	// if more then 1 item, decrease by 1
 	}
-	setcookie("cart_total", .$_GET['cart_total']-1, time() + (86400), "/"); 
+	setcookie("cart_total", $_GET['cart_total']-1, time() + (86400), "/"); 
 	header('Location: '.$redirectURL);
 ?>
