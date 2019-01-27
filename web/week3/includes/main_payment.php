@@ -1,4 +1,5 @@
 <?php
+	/*
 	// Import PHPMailer classes into the global namespace
 	// These must be at the top of your script, not inside a function
 	use PHPMailer\PHPMailer\PHPMailer;
@@ -36,7 +37,8 @@
      	echo "BG";// DB error
 	  }
 	  else{
-		echo "GG WP!";  // SUCCESS !!
+		echo "GG WP!";  // SUCCESS !!*/
+
 		echo "<script>"
 		echo 'var cookies = document.cookie.split(";");';
 	
@@ -48,6 +50,5 @@
 		echo"}";
 		echo "</script>";
 		echo "<h2>Payment succeded!</h2>"
-		}
-	  }       
+		}     
 ?>
