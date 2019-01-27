@@ -14,10 +14,10 @@
         </li><!--
         <li class="nav-item">
           <a class="nav-link btn btn-secondary rounded-pill" href="gallery.php">Gallery</a>
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link btn btn-secondary rounded-pill" href="profile.php">My Profile</a>
-        </li>-->
+        </li>
         <li class="nav-item">
           <a class="nav-link btn btn-secondary rounded-pill" href="#">Work In Progress</a>
         </li>
