@@ -2,8 +2,6 @@
 	<div class="container">
 		<h2 class='centered p-25'> Welcome </h2>
 		<div id='cart_container'>
-			<div class='row boardgame_detail available'>
-			
 			<?php
 				$chosenN="";
 				if (isset($_COOKIE["cart_cookie_conc"])) {
