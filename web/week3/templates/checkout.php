@@ -27,16 +27,16 @@
   <body>
 
     <!-- Navigation -->
-    <?php include '/includes/navigation.php';?>
+    <?php include 'includes/navigation.php';?>
     
     <!-- Header -->
-    <?php include '/includes/header.php';?>
+    <?php include 'includes/header.php';?>
     
     <!-- Main -->
-    <?php include '/includes/main_checkout.php';?>
+    <?php include 'includes/main_checkout.php';?>
     
     <!-- Main -->
-    <?php include '/includes/footer.php';?>
+    <?php include 'includes/footer.php';?>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -45,16 +45,3 @@
   </body>
 
 </html>
-
-<?php
-$link = mysqli_connect("127.0.0.1", "root", "", "my_db");
-if (!$link) {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-}
-  echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
-  echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
-mysqli_close($link);
-?>

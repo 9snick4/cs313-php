@@ -44,7 +44,7 @@
           $HTML2  .= " 
                       <div class='row summary'>
                         <div class='col-6 nowrap'><b>Name :</b> Concept ".$span_quantity."</div>
-                        <div class='col-6 nowrap'><b>Price :</b> 35$ ".$span_quantity."</div> 
+                        <div class='col-6 nowrap'><b>Price :</b> 35€ ".$span_quantity."</div> 
                       </div>           
           ";
           $total +=$cart['Price']*$cookie_quantity_value;

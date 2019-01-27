@@ -30,8 +30,8 @@
 		        ?>
 
 		        <li class="list-group-item d-flex justify-content-between">
-		          	<span>Total (USD)</span>
-		          	<strong><?php echo $_SESSION['total']."$"; ?></strong>
+		          	<span>Total (EUR)</span>
+		          	<strong><?php echo $_SESSION['total']."€"; ?></strong>
 		        </li>
 	      	</ul>
 
