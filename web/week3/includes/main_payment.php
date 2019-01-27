@@ -41,7 +41,7 @@
 	  else{
 		echo "GG WP!";  // SUCCESS !!
 	*/
-
+		
 	/*	echo "<script>"
 		echo 'var cookies = document.cookie.split(";");';
 	

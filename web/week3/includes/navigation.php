@@ -16,7 +16,7 @@
           <a class="nav-link btn btn-secondary rounded-pill" href="gallery.php">Gallery</a>
         </li>-->
         <li class="nav-item">
-          <a class="nav-link btn btn-secondary rounded-pill" href="profile.php">My Profile</a>
+          <a class="nav-link btn btn-secondary rounded-pill" href="profile.php">Shop</a>
         </li>
         <li class="nav-item">
           <a class="nav-link btn btn-secondary rounded-pill" href="#">Work In Progress</a>
