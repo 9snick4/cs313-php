@@ -1,5 +1,5 @@
 <?php
 
-  header("location: /week3/index.php");
+  header("location: /uppsala/index.php");
 
 ?>
